@@ -41,8 +41,8 @@ const Approach = () => {
               alt='Montessori Classroom'
               className='rounded-lg shadow-xl z-10 relative'
             />
-            <div className='absolute -bottom-8 -left-8 w-48 h-48 bg-lime-200 rounded-full opacity-50'></div>
-            <div className='absolute -top-8 -right-8 w-32 h-32 bg-green-300 rounded-full opacity-50'></div>
+            <div className='hidden lg:block absolute -bottom-8 -left-8 w-48 h-48 bg-lime-200 rounded-full opacity-50'></div>
+            <div className='hidden lg:block absolute -top-8 -right-8 w-32 h-32 bg-green-300 rounded-full opacity-50'></div>
           </div>
         </div>
       </div>
