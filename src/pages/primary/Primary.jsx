@@ -1,5 +1,5 @@
 import Layout from '../../components/layout/Layout';
-import Hero from '../../components/Hero/Hero';
+import Hero from '../../components/hero/Hero';
 import Program from '../../components/program/Program';
 import {
   gradeSchoolLearningAreaData,

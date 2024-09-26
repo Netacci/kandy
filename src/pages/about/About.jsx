@@ -1,5 +1,5 @@
 import Layout from '../../components/layout/Layout';
-import Hero from '../../components/Hero/Hero';
+import Hero from '../../components/hero/Hero';
 import OverView from './components/OverView';
 import Approach from './components/Approach';
 import Team from './components/Team';
