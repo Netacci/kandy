@@ -126,7 +126,7 @@ const Navbar = () => {
                 </div>
               ) : (
                 <a
-                  href={`#${section.title.toLowerCase()}`}
+                  href={`${section.link}`}
                   className='text-2xl font-light text-green-700'
                   onClick={() => setMenuOpen(false)}
                 >
