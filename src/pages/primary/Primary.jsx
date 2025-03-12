@@ -9,8 +9,14 @@ import LearningArea from '../../components/learningArea/LearningArea';
 
 import Gallery from '../../components/gallery/Gallery';
 import ExtraC from './components/ExtraC';
+import Nursery from '../../assets/nursery.jpg';
+import Plh from '../../assets/plh.jpg';
 
 const Primary = () => {
+  const images = [
+    Nursery,
+    Plh,
+  ]
   return (
     <Layout>
       <div className='min-h-screen bg-lime-50 text-gray-800 font-sans'>
@@ -42,7 +48,7 @@ const Primary = () => {
           {/* Extracurricular Activities */}
           <ExtraC />
 
-          <Gallery title='  Life in Our Grade School' />
+          <Gallery images={images} title='  Life in Our Grade School' />
 
           {/* <section>
             <h2 className='text-3xl font-light text-green-800 mb-6'>

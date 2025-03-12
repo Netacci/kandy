@@ -5,8 +5,14 @@ import { crecheProgramData } from './../../config/crecheData';
 import Schedule from './components/Schedule';
 import Process from './components/Process';
 import Gallery from '../../components/gallery/Gallery';
+import Nursery from '../../assets/nursery.jpg';
+import Plh from '../../assets/plh.jpg';
 
 const Creche = () => {
+  const images = [
+    Nursery,
+    Plh,
+  ]
   return (
     <Layout>
       <div className='min-h-screen bg-lime-50 text-gray-800 font-sans'>
@@ -34,7 +40,7 @@ const Creche = () => {
           <Schedule />
           <Process />
 
-          <Gallery title='Life in Our Creche' />
+          <Gallery images={images} title='Life in Our Creche' />
 
           {/* <section>
             <h2 className='text-3xl font-light text-green-800 mb-6'>

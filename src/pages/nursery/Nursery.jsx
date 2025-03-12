@@ -7,8 +7,14 @@ import {
 } from '../../config/nurseryData';
 import Gallery from '../../components/gallery/Gallery';
 import LearningArea from '../../components/learningArea/LearningArea';
+import NurseryImg from '../../assets/nursery.jpg';
+import Plh from '../../assets/plh.jpg';
 
 const Nursery = () => {
+  const images = [
+    NurseryImg,
+    Plh,
+  ]
   return (
     <Layout>
       <div className='min-h-screen bg-lime-50 text-gray-800 font-sans'>
@@ -33,7 +39,7 @@ const Nursery = () => {
             title='Key Learning Areas'
             data={preSchoolLearningAreaData}
           />
-          <Gallery title='Life in Our Preschool' />
+          <Gallery images={images} title='Life in Our Preschool' />
 
           {/* Contact Information */}
           {/* <section>
