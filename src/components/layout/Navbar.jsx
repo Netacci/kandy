@@ -13,6 +13,7 @@ const Navbar = () => {
     { title: 'Home', color: 'bg-lime-100', link: ROUTES.home },
     { title: 'About us', color: 'bg-green-50', link: ROUTES.about },
     { title: 'Programs', color: 'bg-white', dropdown: true },
+    { title: 'Events', color: 'bg-lime-50', link: ROUTES.events },
     { title: 'Contact Us', color: 'bg-lime-50', link: '#contact' },
   ];
 

@@ -4,4 +4,5 @@ export const ROUTES = {
   creche: '/creche',
   preSchool: '/pre-school',
   gradeSchool: '/grade-school',
+  events : '/events',
 };

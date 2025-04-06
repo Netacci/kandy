@@ -9,6 +9,7 @@ const Nursery = lazy(() => import('./pages/nursery/Nursery'));
 const Primary = lazy(() => import('./pages/primary/Primary'));
 const NotFoundPage = lazy(() => import('./pages/Error/Error'));
 const About = lazy(() => import('./pages/about/About'));
+const Events = lazy(() => import('./pages/events/Events'));
 
 const HomePage = () => {
   return (
@@ -52,6 +53,14 @@ const HomePage = () => {
         element={
           <Suspense fallback={<Loader />}>
             <Primary />
+          </Suspense>
+        }
+      />
+         <Route
+        path={ROUTES.events}
+        element={
+          <Suspense fallback={<Loader />}>
+            <Events />
           </Suspense>
         }
       />
