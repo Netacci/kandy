@@ -18,35 +18,35 @@ import fifteenthImg from '../../../assets/events/15.jpg';
 
 
 export const eventData = [
-  {
-    category: '2024 Christmas party',
-    images: [
-      {
-        id: 1,
-        src: {firstImg},
-        alt: 'Nature image 1',
-        description: 'Igbo Summer Picnic Pictures',
-      },
-      {
-        id: 2,
-        src: '/about/middle-up.png',
-        alt: 'Nature image 2',
-        description: 'Igbo Summer Picnic Pictures',
-      },
-      {
-        id: 3,
-        src: '/about/right-up.png',
-        alt: 'Nature image 3',
-        description: 'Igbo Summer Picnic Pictures',
-      },
-      {
-        id: 4,
-        src: '/about/middle-down.png',
-        alt: 'Nature image 4',
-        description: 'Igbo Summer Picnic Pictures',
-      },
-    ],
-  },
+  // {
+  //   category: '2024 Christmas party',
+  //   images: [
+  //     {
+  //       id: 1,
+  //       src: {firstImg},
+  //       alt: 'Nature image 1',
+  //       description: 'Igbo Summer Picnic Pictures',
+  //     },
+  //     {
+  //       id: 2,
+  //       src: '/about/middle-up.png',
+  //       alt: 'Nature image 2',
+  //       description: 'Igbo Summer Picnic Pictures',
+  //     },
+  //     {
+  //       id: 3,
+  //       src: '/about/right-up.png',
+  //       alt: 'Nature image 3',
+  //       description: 'Igbo Summer Picnic Pictures',
+  //     },
+  //     {
+  //       id: 4,
+  //       src: '/about/middle-down.png',
+  //       alt: 'Nature image 4',
+  //       description: 'Igbo Summer Picnic Pictures',
+  //     },
+  //   ],
+  // },
   {
     category: '2025 Inter house sports',
     images: [
@@ -92,6 +92,7 @@ export const eventData = [
         alt: 'inter house sports images',
         description: 'Ruby house',
       },
+  
       {
         id: 6,
         src: sixthImg,

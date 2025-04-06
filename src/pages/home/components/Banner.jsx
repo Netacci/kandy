@@ -2,7 +2,7 @@ const Banner = () => {
   return (
     <section
       id='admissions'
-      className='min-h-screen flex items-center bg-lime-50'
+      className='py-16 flex items-center bg-lime-50'
     >
       <div className='container mx-auto px-4'>
         <div className='max-w-3xl mx-auto text-center'>
