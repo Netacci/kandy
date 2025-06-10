@@ -86,18 +86,7 @@ const Footer = () => {
         <div className='mt-8 py-8 border-t border-green-700 text-center'>
           <p>&copy; 2024 Kandy Montessori School. All rights reserved.</p>
         </div>
-        <div className='pt-2 border-t border-green-700 text-center'>
-          <p>
-            Designed by{' '}
-            <a
-              href='https://www.netacci.com'
-              target='_blank'
-              className='hover:underline'
-            >
-              Netacci
-            </a>
-          </p>
-        </div>
+       
       </div>
     </footer>
   );
