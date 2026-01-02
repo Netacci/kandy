@@ -88,7 +88,7 @@ const Footer = () => {
         </div>
        <div className='pt-2 border-t border-green-700 text-center'>
           <p>
-            Designed by{' '}
+            Designed and developed by{' '}
             <a
               href='https://www.netacci.com'
               target='_blank'
