@@ -1,10 +1,13 @@
 const Schedule = () => {
   return (
-    <section className='mb-16'>
-      <h2 className='text-3xl font-light text-green-800 mb-6'>
-        A Day in Our Creche
-      </h2>
-      <div className='bg-white p-6 rounded-lg shadow-md'>
+    <section className='mb-16 py-8'>
+      <div className='text-center mb-8'>
+        <h2 className='text-4xl font-bold text-green-800 mb-4'>
+          A Day in Our Creche
+        </h2>
+        <div className='w-20 h-1 bg-green-600 mx-auto mb-4'></div>
+      </div>
+      <div className='bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow border border-gray-100 max-w-4xl mx-auto'>
         <ul className='space-y-4'>
           {[
             {
@@ -39,9 +42,9 @@ const Schedule = () => {
               activity: 'Wind Down and Departure',
             },
           ].map((item, index) => (
-            <li key={index} className='flex'>
-              <span className='font-semibold w-40'>{item.time}</span>
-              <span>{item.activity}</span>
+            <li key={index} className='flex hover:bg-green-50 p-2 rounded transition-colors'>
+              <span className='font-semibold w-40 text-green-700'>{item.time}</span>
+              <span className='text-gray-700'>{item.activity}</span>
             </li>
           ))}
         </ul>
