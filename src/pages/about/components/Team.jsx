@@ -10,9 +10,10 @@ const Team = () => {
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {[
           { name: "Anny Wilcox", role: "Director" },
-          { name: "Tonye", role: "Head mistress" },
-          { name: "Ego", role: "Head of Nursery" },
-          { name: "Michael Brown", role: "Head of Primary" },
+          { name: "Tonye Quakers Sarah", role: "Head Teacher" },
+          { name: "Onuigbo Nwakaego Violet", role: "Nursery HOD" },
+          { name: "Osuji Amarachi", role: "School Admin" },
+          { name: "Nkiruka Nwankwo", role: "Primary HOD" },
         ].map((member, index) => (
           <div
             key={index}

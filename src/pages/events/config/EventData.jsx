@@ -27,6 +27,11 @@ import creative9 from "../../../assets/events/creative/9.jpg";
 import creative10 from "../../../assets/events/creative/10.jpg";
 import creative11 from "../../../assets/events/creative/11.jpg";
 import creative12 from "../../../assets/events/creative/12.jpg";
+import creative13 from "../../../assets/events/creative/13.jpg";
+import creative14 from "../../../assets/events/creative/14.jpg";
+import creative15 from "../../../assets/events/creative/15.jpg";
+import creative16 from "../../../assets/events/creative/16.jpg";
+import creative17 from "../../../assets/events/creative/17.jpg";
 
 // Inter house sports 2025 images
 import interhouse2025_1 from "../../../assets/events/interhouse/2025/1.jpg";
@@ -207,6 +212,36 @@ export const eventData = [
         src: creative12,
         alt: "Creative activities image 12",
         description: "Robotics Project",
+      },
+      {
+        id: 13,
+        src: creative13,
+        alt: "Creative activities image 13",
+        description: "Career Day",
+      },
+      {
+        id: 14,
+        src: creative14,
+        alt: "Creative activities image 14",
+        description: "Music Practice",
+      },
+      {
+        id: 15,
+        src: creative15,
+        alt: "Creative activities image 15",
+        description: "Chess Club",
+      },
+      {
+        id: 16,
+        src: creative16,
+        alt: "Creative activities image 16",
+        description: "Chess Club",
+      },
+      {
+        id: 17,
+        src: creative17,
+        alt: "Creative activities image 17",
+        description: "Knitting and Sewing Activities",
       },
     ],
   },
